@@ -1,0 +1,19 @@
+= Docker Downloader
+
+有时候由于特殊的网络环境下载个文件简直就是在吃屎。
+
+[source, bash]
+----
+version='1.1.1'
+dest=~/downloads
+
+git tag "release-v${version}"
+git push origin $_ <1>
+
+docker pull "registry.cn-beijing.aliyuncs.com/radix10/downloader:$_" <2>
+
+docker run --rm -u $(id -u $USER):$(id -g $USER) -d -v "${dest}":/opt $_ <3>
+----
+<1> 修改下载链接后按如下格式添加标签并推送至远程仓库。
+<2> 待镜像构建完毕后拉取至本地。
+<3> 运行镜像，释放文件至目标文件夹下。
