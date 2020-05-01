@@ -12,7 +12,7 @@ git push origin $_ <1>
 
 docker pull "registry.cn-beijing.aliyuncs.com/radix10/downloader:$version" <2>
 
-docker run --rm -u $(id -u $USER):$(id -g $USER) -d -v "${dest}":/opt $_ <3>
+docker run --rm -d -v "${dest}":/opt $_ $(id -u $USER) $(id -g $USER) <3>
 ----
 <1> 修改下载链接后按如下格式添加标签并推送至远程仓库。
 <2> 待镜像构建完毕后拉取至本地。
