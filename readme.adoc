@@ -17,3 +17,5 @@ docker run --rm -u $(id -u $USER):$(id -g $USER) -d -v "${dest}":/opt $_ <3>
 <1> 修改下载链接后按如下格式添加标签并推送至远程仓库。
 <2> 待镜像构建完毕后拉取至本地。
 <3> 运行镜像，释放文件至目标文件夹下。
+
+* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200430.0.0/providers/virtualbox.box --> 0.0.0
