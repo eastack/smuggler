@@ -20,3 +20,4 @@ docker run --rm -d -v "${dest}":/opt $_ $(id -u $USER) $(id -g $USER) <3>
 
 * https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200430.0.0/providers/virtualbox.box --> 0.0.0
 * https://storage.googleapis.com/etcd/v3.4.7/etcd-v3.4.7-linux-amd64.tar.gz --> 0.0.1
+* https://github.com/denoland/deno/releases/download/v1.0.0/deno-x86_64-unknown-linux-gnu.zip --> 0.0.2
