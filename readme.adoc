@@ -1,14 +1,13 @@
 = Docker Downloader
 
 借助阿里云容器镜像服务下载文件（且用且珍惜）。
-
 [source, bash]
 ----
 version='0.0.0'
 dest=~/downloads
 
 git tag "release-v${version}"
-git push origin $_ # <1>
+git push origin "release-v${version}" # <1>
 
 docker pull "registry.cn-beijing.aliyuncs.com/radix10/downloader:$version" # <2>
 
@@ -21,4 +20,6 @@ docker run --rm -d -v "${dest}":/opt $_ $(id -u $USER) $(id -g $USER) # <3>
 * https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200430.0.0/providers/virtualbox.box --> 0.0.0
 * https://storage.googleapis.com/etcd/v3.4.7/etcd-v3.4.7-linux-amd64.tar.gz --> 0.0.1
 * https://github.com/denoland/deno/releases/download/v1.0.0/deno-x86_64-unknown-linux-gnu.zip --> 0.0.2
-* https://github.com/goharbor/harbor/releases/download/v2.0.0/harbor-offline-installer-v2.0.0.tgz --> 0.0.3
+* https://github.com/denoland/deno/releases/download/v1.0.0/deno-x86_64-unknown-linux-gnu.zip --> 0.0.3
+* https://github.com/goharbor/harbor/releases/download/v2.0.0/harbor-offline-installer-v2.0.0.tgz --> 0.0.4
+* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200526.0.0/providers/virtualbox.box --> 0.0.5
