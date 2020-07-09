@@ -4,6 +4,6 @@ LABEL MAINTAINERS="Radix10 <admin@radix10.me>"
 
 COPY entrypoint.sh /entrypoint.sh
 
-ADD https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200526.0.0/providers/virtualbox.box /downloaded_file
+ADD https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200707.0.0/providers/virtualbox.box /downloaded_file
 
 ENTRYPOINT ["/entrypoint.sh"]
