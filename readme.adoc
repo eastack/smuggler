@@ -26,3 +26,4 @@ docker run --rm -d -v "${dest}":/opt $_ $UID $GID # <3>
 * https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200526.0.0/providers/virtualbox.box --> 0.0.5
 * https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200707.0.0/providers/virtualbox.box --> 0.0.8
 * https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6_amd64.tar.gz --> 0.0.9
+* https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6.dmg --> 0.0.10
