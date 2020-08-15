@@ -8,6 +8,7 @@ dest=~/downloads
 
 git commit -a
 git tag "release-v${version}"
+git push
 git push origin "release-v${version}" # <1>
 
 docker pull "registry.cn-beijing.aliyuncs.com/radix10/downloader:$version" # <2>
