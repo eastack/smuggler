@@ -31,3 +31,4 @@ docker run --rm -d -v "${dest}":/opt $_ $UID $GID # <3>
 * https://algs4.cs.princeton.edu/11model/largeText.txt --> 0.0.12
 * https://algs4.cs.princeton.edu/11model/largeAllowlist.txt --> 0.0.13
 * https://vagrantcloud.com/centos/boxes/8/versions/1905.1/providers/virtualbox.box --> 0.0.20
+* https://github.com/goharbor/harbor/releases/download/v2.0.2/harbor-offline-installer-v2.0.0.tgz --> 0.0.30
