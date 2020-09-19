@@ -1,64 +1,12 @@
 = Docker Downloader
 
 借助马爸爸家阿里云容器镜像服务下载点难以下载文件（且用且珍惜）。
+
 [source, bash]
 ----
-version='0.0.0'
-dest=~/downloads
-
-git commit -a
-git tag "release-v${version}"
-git push
-git push origin "release-v${version}" # <1>
-
-docker pull "registry.cn-beijing.aliyuncs.com/radix10/downloader:$version" # <2>
-
-docker run --rm -d -v "${dest}":/opt $_ $UID $GID # <3>
+./main.sh https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg 0.2.8
 ----
-<1> 修改下载链接并提交后后按如下格式添加标签并推送至远程仓库。
-<2> 待镜像构建完毕后拉取至本地。
-<3> 运行镜像，释放文件至目标文件夹下。
 
-* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200430.0.0/providers/virtualbox.box --> 0.0.0
-* https://storage.googleapis.com/etcd/v3.4.7/etcd-v3.4.7-linux-amd64.tar.gz --> 0.0.1
-* https://github.com/denoland/deno/releases/download/v1.0.0/deno-x86_64-unknown-linux-gnu.zip --> 0.0.2
-* https://github.com/denoland/deno/releases/download/v1.0.0/deno-x86_64-unknown-linux-gnu.zip --> 0.0.3
-* https://github.com/goharbor/harbor/releases/download/v2.0.0/harbor-offline-installer-v2.0.0.tgz --> 0.0.4
-* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200526.0.0/providers/virtualbox.box --> 0.0.5
-* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20200814.0.0/providers/virtualbox.box --> 0.0.8
-* https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6_amd64.tar.gz --> 0.0.9
-* https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6.dmg --> 0.0.10
-* https://algs4.cs.princeton.edu/11model/largeText.txt --> 0.0.12
-* https://algs4.cs.princeton.edu/11model/largeAllowlist.txt --> 0.0.13
-* https://vagrantcloud.com/centos/boxes/8/versions/1905.1/providers/virtualbox.box --> 0.0.20
-* https://github.com/goharbor/harbor/releases/download/v2.0.2/harbor-offline-installer-v2.0.0.tgz --> 0.0.30
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.0]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.1]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.2]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.4]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.5]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.6]
-\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.7]
-* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.8]
+== Log
+
+* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.9]
