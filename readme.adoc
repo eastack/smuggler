@@ -58,3 +58,4 @@ docker run --rm -d -v "${dest}":/opt $_ $UID $GID # <3>
 \* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.1]
 \* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.2]
 \* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.4]
+\* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.5]
