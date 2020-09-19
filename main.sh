@@ -19,6 +19,6 @@ git push origin "release-v${version}"
 until docker pull "registry.cn-beijing.aliyuncs.com/radix10/downloader:${version}"
 do
   echo 'Try pull image...'
-  sleep 10
+  sleep 30
 done
 docker run --user $(id -u):$(id -g) --rm --detach --volume $PWD:/mnt "registry.cn-beijing.aliyuncs.com/radix10/downloader:${version}"
