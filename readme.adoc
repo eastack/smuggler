@@ -4,9 +4,10 @@
 
 [source, bash]
 ----
-./main.sh https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg 0.2.8
+./main.sh https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg 0.2.8 # <1>
 ----
 
 == Log
 
 * https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.9]
+* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.10]
