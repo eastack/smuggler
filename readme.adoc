@@ -12,3 +12,4 @@
 
 * https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.9]
 * https://github.com/kubernetes/kubernetes/releases/download/v1.18.9/kubernetes.tar.gz[0.0.35]
+* https://dl.k8s.io/v1.18.9/kubernetes-node-linux-amd64.tar.gz[0.0.36]
