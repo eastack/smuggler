@@ -4,16 +4,11 @@
 
 [source, bash]
 ----
-./main.sh https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg 0.2.8 # <1>
+./main.sh https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg rbac.jpg # <1>
 ----
+<1> 命令执行结束会将文件下载到当前目录下
 
 == Log
 
 * https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.9]
-* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.10]
-* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.10]
-* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.10]
-* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.2.10]
-* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.0.33]
-* https://github.com/claudiodangelis/qrcp/releases/download/0.6.4/qrcp_0.6.4_linux_arm64.tar.gz[0.0.34]
-* https://github.com/claudiodangelis/qrcp/releases/download/0.6.4/qrcp_0.6.4_linux_arm64.tar.gz[0.0.34]
+* https://github.com/kubernetes/kubernetes/releases/download/v1.18.9/kubernetes.tar.gz[0.0.35]
