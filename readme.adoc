@@ -17,3 +17,4 @@
 * https://github.com/goharbor/harbor/releases/download/v2.1.0/harbor-offline-installer-v2.1.0.tgz[0.0.38]
 * https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.0.39]
 * https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.0.40]
+* https://upload.wikimedia.org/wikipedia/en/1/19/Role-based_access_control.jpg[0.0.41]
