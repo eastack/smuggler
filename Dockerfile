@@ -2,4 +2,4 @@ FROM alpine:3
 
 LABEL MAINTAINERS="Radix10 <admin@radix10.me>"
 
-ADD https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2020-08-24/2020-08-20-raspios-buster-armhf-lite.zip /opt/download_file
+ADD https://packages.gitlab.com/gitlab/raspberry-pi2/packages/raspbian/buster/gitlab-ce_13.4.3-ce.0_armhf.deb/download.deb /opt/download_file
