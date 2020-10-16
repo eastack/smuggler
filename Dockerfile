@@ -2,4 +2,4 @@ FROM alpine:3
 
 LABEL MAINTAINERS="Radix10 <admin@radix10.me>"
 
-ADD https://releases.hashicorp.com/vault/1.5.4/vault_1.5.4_linux_arm.zip /opt/download_file
+ADD https://dl.k8s.io/v1.18.10/kubernetes-client-linux-amd64.tar.gz /opt/download_file
