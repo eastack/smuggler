@@ -26,3 +26,4 @@
 * https://dl.k8s.io/v1.18.10/kubernetes-client-linux-amd64.tar.gz[0.0.47]
 * https://dl.k8s.io/v1.18.10/kubernetes-node-linux-amd64.tar.gz[0.0.48]
 * https://dl.k8s.io/v1.18.10/kubernetes-node-linux-amd64.tar.gz[0.0.49]
+* https://dl.k8s.io/v1.18.10/kubernetes-node-linux-amd64.tar.gz[0.0.50]
