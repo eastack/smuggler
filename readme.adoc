@@ -14,3 +14,4 @@
 * https://dl.k8s.io/v1.18.10/kubernetes-node-linux-amd64.tar.gz[0.0.56]
 * https://dl.k8s.io/v1.18.10/kubernetes-node-linux-amd64.tar.gz[0.0.57]
 * https://github.com/etcd-io/etcd/releases/download/v3.3.25/etcd-v3.3.25-linux-amd64.tar.gz[0.0.58]
+* https://vagrantcloud.com/debian/boxes/buster64/versions/10.4.0/providers/libvirt.box[0.0.59]
