@@ -17,3 +17,4 @@
 * https://vagrantcloud.com/debian/boxes/buster64/versions/10.4.0/providers/libvirt.box[0.0.59]
 * https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-amd64.img[0.0.60]
 * https://vagrantcloud.com/ubuntu/boxes/groovy64/versions/20201022.1.0/providers/virtualbox.box[0.0.61]
+* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20201016.0.0/providers/virtualbox.box[0.0.62]
