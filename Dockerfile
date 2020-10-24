@@ -2,4 +2,4 @@ FROM alpine:3
 
 LABEL MAINTAINERS="Radix10 <admin@radix10.me>"
 
-ADD https://cloud-images.ubuntu.com/groovy/current/groovy-server-cloudimg-amd64.img /opt/download_file
+ADD https://vagrantcloud.com/ubuntu/boxes/groovy64/versions/20201022.1.0/providers/virtualbox.box /opt/download_file
