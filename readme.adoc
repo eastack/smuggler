@@ -19,3 +19,4 @@
 * https://vagrantcloud.com/ubuntu/boxes/groovy64/versions/20201022.1.0/providers/virtualbox.box[0.0.61]
 * https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20201016.0.0/providers/virtualbox.box[0.0.62]
 * https://dl.k8s.io/v1.18.10/kubernetes-server-linux-amd64.tar.gz[0.0.63]
+* https://dl.k8s.io/v1.18.10/kubernetes-server-linux-amd64.tar.gz[0.0.64]
