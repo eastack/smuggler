@@ -2,4 +2,4 @@ FROM alpine:3
 
 LABEL MAINTAINERS="Radix10 <admin@radix10.me>"
 
-ADD https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20201016.0.0/providers/virtualbox.box /opt/download_file
+ADD https://dl.k8s.io/v1.18.10/kubernetes-server-linux-amd64.tar.gz /opt/download_file
