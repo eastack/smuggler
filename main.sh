@@ -3,7 +3,7 @@
 set -exuo pipefail
 
 url=$1
-filename=$2
+filename=${2:-$(basename $1)}
 version=$(git tag -l | sort -t. -k3 -n | awk -F 'v' 'END{print $2}' | awk -F '.' '{print $1 "." $2 "." $3 + 1}')
 
 # change dockerfile and log
@@ -26,5 +26,5 @@ done
 # copy file
 docker run --rm \
 	--detach \
-	--volume $PWD:/mnt "registry.cn-beijing.aliyuncs.com/radix10/downloader:${version}" \
+	--volume $PWD/downloads:/mnt "registry.cn-beijing.aliyuncs.com/radix10/downloader:${version}" \
 	sh -c "chown $(id -u):$(id -g) /opt/download_file && mv /opt/download_file /mnt/$filename"
