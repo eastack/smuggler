@@ -24,3 +24,4 @@
 * https://dl.k8s.io/v1.18.10/kubernetes-node-linux-amd64.tar.gz[0.0.66]
 * https://github.com/graalvm/graalvm-ce-builds/releases/download/vm-20.2.0/graalvm-ce-java11-linux-amd64-20.2.0.tar.gz[0.0.67]
 * https://github.com/cloudflare/cfssl/releases/download/v1.5.0/cfssl-bundle_1.5.0_linux_amd64[0.0.68]
+* https://github.com/cloudflare/cfssl/releases/download/v1.5.0/cfssl-bundle_1.5.0_linux_amd64[0.0.1]
