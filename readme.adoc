@@ -31,3 +31,4 @@
 * V[0.0.72]
 * https://dl.pstmn.io/download/latest/linux64[0.0.73]
 * https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server/archive/master.zip[0.0.74]
+* https://github.com/mitreid-connect/simple-web-app/archive/master.zip[0.0.75]
