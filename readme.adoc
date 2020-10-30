@@ -30,3 +30,4 @@
 * https://github.com/cloudflare/cfssl/releases/download/v1.5.0/cfssljson_1.5.0_linux_amd64[0.0.71]
 * V[0.0.72]
 * https://dl.pstmn.io/download/latest/linux64[0.0.73]
+* https://github.com/mitreid-connect/OpenID-Connect-Java-Spring-Server/archive/master.zip[0.0.74]
