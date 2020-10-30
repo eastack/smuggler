@@ -34,3 +34,4 @@
 * https://github.com/mitreid-connect/simple-web-app/archive/master.zip[0.0.75]
 * https://downloads.jboss.org/keycloak/11.0.2/keycloak-11.0.2.tar.gz[0.0.76]
 * https://downloads.jboss.org/keycloak/11.0.2/keycloak-11.0.2.tar.gz[0.0.77]
+* https://downloads.jboss.org/keycloak/11.0.2/keycloak-11.0.2.tar.gz[0.0.78]
