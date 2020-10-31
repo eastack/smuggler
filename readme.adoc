@@ -36,3 +36,4 @@
 * https://downloads.jboss.org/keycloak/11.0.2/keycloak-11.0.2.tar.gz[0.0.77]
 * https://downloads.jboss.org/keycloak/11.0.2/keycloak-11.0.2.tar.gz[0.0.78]
 * https://apt.releases.hashicorp.com/pool/amd64/main/vault_1.5.5_amd64.deb[0.0.79]
+* https://apt.releases.hashicorp.com/pool/amd64/main/vault_1.5.5_amd64.deb[0.0.80]
