@@ -41,3 +41,4 @@
 * https://apt.releases.hashicorp.com/pool/amd64/main/vault_1.5.5_amd64.deb[0.0.82]
 * https://apt.releases.hashicorp.com/pool/amd64/main/vault_1.5.5_amd64.deb[0.0.83]
 * https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz[0.0.84]
+* https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz[0.0.85]
