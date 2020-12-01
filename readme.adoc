@@ -47,3 +47,4 @@
 * https://releases.hashicorp.com/vault/1.6.0/vault_1.6.0_linux_amd64.zip[0.0.88]
 * https://releases.hashicorp.com/vault/1.6.0/vault_1.6.0_linux_amd64.zip[0.0.89]
 * https://github.com/asciidoctor/asciidoctor-reveal.js/releases/download/v4.0.1/asciidoctor-revealjs-linux[0.0.90]
+* https://github.com/containernetworking/plugins/releases/download/v0.8.7/cni-plugins-linux-amd64-v0.8.7.tgz[0.0.91]
