@@ -46,3 +46,4 @@
 * https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage[0.0.87]
 * https://releases.hashicorp.com/vault/1.6.0/vault_1.6.0_linux_amd64.zip[0.0.88]
 * https://releases.hashicorp.com/vault/1.6.0/vault_1.6.0_linux_amd64.zip[0.0.89]
+* https://github.com/asciidoctor/asciidoctor-reveal.js/releases/download/v4.0.1/asciidoctor-revealjs-linux[0.0.90]
