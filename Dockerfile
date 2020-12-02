@@ -2,4 +2,4 @@ FROM alpine:3
 
 LABEL MAINTAINERS="Radix10 <admin@radix10.me>"
 
-ADD https://github.com/containernetworking/plugins/releases/download/v0.8.7/cni-plugins-linux-amd64-v0.8.7.tgz /opt/download_file
+ADD https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip /opt/download_file
