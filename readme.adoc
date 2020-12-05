@@ -49,3 +49,4 @@
 * https://github.com/asciidoctor/asciidoctor-reveal.js/releases/download/v4.0.1/asciidoctor-revealjs-linux[0.0.90]
 * https://github.com/containernetworking/plugins/releases/download/v0.8.7/cni-plugins-linux-amd64-v0.8.7.tgz[0.0.91]
 * https://dl.google.com/android/repository/commandlinetools-linux-6858069_latest.zip[0.0.92]
+* https://vagrantcloud.com/ubuntu/boxes/focal64/versions/20201201.0.0/providers/virtualbox.box[0.0.93]
