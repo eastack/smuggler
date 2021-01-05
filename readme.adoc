@@ -27,3 +27,4 @@
 * https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage[0.0.94]
 * https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage[0.0.95]
 * https://download.sonatype.com/nexus/3/latest-unix.tar.gz[0.0.96]
+* https://download.sonatype.com/nexus/3/latest-unix.tar.gz[0.0.97]
