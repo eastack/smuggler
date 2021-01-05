@@ -26,3 +26,4 @@
 * https://github.com/cloudflare/cfssl/releases/download/v1.5.0/cfssl-bundle_1.5.0_linux_amd64[0.0.68]
 * https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage[0.0.94]
 * https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage[0.0.95]
+* https://download.sonatype.com/nexus/3/latest-unix.tar.gz[0.0.96]
