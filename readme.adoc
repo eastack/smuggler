@@ -29,3 +29,4 @@
 * https://download.sonatype.com/nexus/3/latest-unix.tar.gz[0.0.96]
 * https://download.sonatype.com/nexus/3/latest-unix.tar.gz[0.0.97]
 * https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz[0.0.98]
+* https://github.com/neovim/neovim/releases/download/nightly/nvim-linux64.tar.gz[0.0.99]
